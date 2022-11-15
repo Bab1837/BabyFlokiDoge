@@ -1,5 +1,5 @@
 /**
- *Submitted for verification at BscScan.com on 2021-10-24
+ *Submitted for verification at BscScan.com on 2022-11-16
  */
 
 // SPDX-License-Identifier: GPL-3.0-only
@@ -1067,7 +1067,7 @@ contract BabyFlokiDoge is Context, IERC20, Ownable {
   mapping(address => bool) private _isExcludedFromTxLimit; //Adding this for the dxsale/unicrypt presale, the router needs to be exempt from max tx amount limit.
 
   uint256 private constant MAX = ~uint256(0);
-  uint256 private _tTotal = 8000000 * 10**9 * 10**9; //8 quadrillion
+  uint256 private _tTotal = 100000000 * 10**9 * 10**9; //100 quadrillion
   uint256 private _rTotal = (MAX - (MAX % _tTotal));
   uint256 private _tFeeTotal;
 
